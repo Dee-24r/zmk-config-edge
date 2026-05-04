@@ -8,14 +8,14 @@ name: edge
 type: shield
 
 # Set this to a URL that documents the keyboard.
-url: https://example.com
+url: https://github.com/Dee-24r/zmk-config-edge
 
 # Add any features your keyboard supports here.
 # See https://zmk.dev/docs/development/hardware-integration/hardware-metadata-files#features
 features:
   - keys
   - studio  # Remove this line if your keyboard will not support ZMK Studio
-
+#I WANT TO ADD VIA AND VIAL
 requires:
   - seeed_xiao
 
