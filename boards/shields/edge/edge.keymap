@@ -13,14 +13,25 @@
             >;
         };
 
-        bt_num_sym_layer{
+        num_sym_layer{
             bindings = <
-                &kp N1  &kp N2  &kp N3  &kp N4  &kp N5       &kp N6  &kp N7  &kp N8  &kp N9  &kp N0
-                &bootloader &kp COMMA  &kp DOT  &kp D  &kp F  &kp G       &kp H  &kp J  &kp K  &kp L  &to 1
-                &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2 &kp B  &kp    &kp COMMA   &kp DOT   &kp FSLH
+                &kp N1       &kp N2      &kp N3      &kp N4      &kp N5
+                &kp N6       &kp N7      &kp N8      &kp N9      &kp N0
+                &kp EXCL    &kp AT      &kp HASH    &kp DLLR    &kp PRCNT
+                &kp CARET   &kp ASTRK   &kp LT      &kp GT      &kp QMARK
+                &kp COLON   &kp SEMI    &kp SQT     &kp DQT     &kp BSLH
+                &bootloader &kp COMMA  &kp DOT     &mo 2       &to 0
+            >;
+        };
 
-                
-                
+        bt_layer{
+            bindings = <
+                &bt BT_PAIR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3
+                &bt BT_CLR   &trans        &trans        &trans        &trans
+                &trans       &trans        &trans        &trans        &trans
+                &trans       &trans        &trans        &trans        &trans
+                &trans       &trans        &trans        &trans        &trans
+                &trans       &trans        &trans        &trans        &trans
             >;
         };
     };
